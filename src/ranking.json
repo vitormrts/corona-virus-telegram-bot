@@ -3,17 +3,17 @@
         {
             "pos": null,
             "country": "World",
-            "total": 93498522
+            "total": 93533471
         },
         {
             "pos": 1.0,
             "country": "USA",
-            "total": 23841124
+            "total": 23848410
         },
         {
             "pos": 2.0,
             "country": "India",
-            "total": 10528346
+            "total": 10528508
         },
         {
             "pos": 3.0,
@@ -60,69 +60,69 @@
         {
             "pos": null,
             "country": "World",
-            "total": "+737,897"
+            "total": "+23,581"
         },
         {
             "pos": 1.0,
-            "country": "USA",
-            "total": "+223,171"
+            "country": "Mexico",
+            "total": "+16,468"
         },
         {
             "pos": 2.0,
-            "country": "Brazil",
-            "total": "+68,656"
+            "country": "Pakistan",
+            "total": "+2,417"
         },
         {
             "pos": 3.0,
-            "country": "UK",
-            "total": "+48,682"
+            "country": "Bolivia",
+            "total": "+2,198"
         },
         {
             "pos": 4.0,
-            "country": "Spain",
-            "total": "+35,878"
+            "country": "Honduras",
+            "total": "+954"
         },
         {
             "pos": 5.0,
-            "country": "Russia",
-            "total": "+24,763"
+            "country": "Kazakhstan",
+            "total": "+835"
         },
         {
             "pos": 6.0,
-            "country": "Germany",
-            "total": "+22,931"
+            "country": "S. Korea",
+            "total": "+513"
         },
         {
             "pos": 7.0,
-            "country": "France",
-            "total": "+21,228"
+            "country": "China",
+            "total": "+144"
         },
         {
             "pos": 8.0,
-            "country": "South Africa",
-            "total": "+18,503"
+            "country": "New Zealand",
+            "total": "+18"
         },
         {
             "pos": 9.0,
-            "country": "Italy",
-            "total": "+17,246"
+            "country": "Cambodia",
+            "total": "+15"
         },
         {
             "pos": 10.0,
-            "country": "Colombia",
-            "total": "+17,121"
+            "country": "Mongolia",
+            "total": "+12"
         }
     ],
     "totdeaths": [
         {
             "pos": null,
             "country": "World",
-            "total": 2001051.0
+            "total": 2002407.0
         },
         {
             "pos": 1.0,
             "country": "USA",
-            "total": 397821.0
+            "total": 397994.0
         },
         {
             "pos": 2.0,
@@ -137,7 +137,7 @@
         {
             "pos": 4.0,
             "country": "Mexico",
-            "total": 136917.0
+            "total": 137916.0
         },
         {
             "pos": 5.0,
@@ -174,74 +174,74 @@
         {
             "pos": null,
             "country": "World",
-            "total": "+15,123"
+            "total": "+1,118"
         },
         {
             "pos": 1.0,
-            "country": "USA",
-            "total": "+3,896"
+            "country": "Mexico",
+            "total": "+999"
         },
         {
             "pos": 2.0,
-            "country": "UK",
-            "total": "+1,248"
+            "country": "Pakistan",
+            "total": "+45"
         },
         {
             "pos": 3.0,
-            "country": "Mexico",
-            "total": "+1,235"
+            "country": "Bolivia",
+            "total": "+37"
         },
         {
             "pos": 4.0,
-            "country": "Brazil",
-            "total": "+1,151"
+            "country": "S. Korea",
+            "total": "+22"
         },
         {
             "pos": 5.0,
-            "country": "Germany",
-            "total": "+1,088"
+            "country": "Honduras",
+            "total": "+15"
         },
         {
             "pos": 6.0,
-            "country": "South Africa",
-            "total": "+712"
+            "country": "USA",
+            "total": null
         },
         {
             "pos": 7.0,
-            "country": "Russia",
-            "total": "+570"
+            "country": "Brazil",
+            "total": null
         },
         {
             "pos": 8.0,
-            "country": "Italy",
-            "total": "+522"
+            "country": "India",
+            "total": null
         },
         {
             "pos": 9.0,
-            "country": "Poland",
-            "total": "+381"
+            "country": "UK",
+            "total": null
         },
         {
             "pos": 10.0,
-            "country": "Colombia",
-            "total": "+367"
+            "country": "Italy",
+            "total": null
         }
     ],
     "totrecovered": [
         {
             "pos": null,
             "country": "World",
-            "total": 66772616.0
+            "total": 66812623.0
         },
         {
             "pos": 1.0,
             "country": "USA",
-            "total": 14090479.0
+            "total": 14112119.0
         },
         {
             "pos": 2.0,
             "country": "India",
-            "total": 10161868.0
+            "total": 10162082.0
         },
         {
             "pos": 3.0,
@@ -288,12 +288,12 @@
         {
             "pos": null,
             "country": "World",
-            "total": 24724855.0
+            "total": 24718441.0
         },
         {
             "pos": 1.0,
             "country": "USA",
-            "total": 9352824.0
+            "total": 9338297.0
         },
         {
             "pos": 2.0,

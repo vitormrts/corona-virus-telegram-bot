@@ -6,7 +6,7 @@ import json
 
 
 def read_json():
-    with open('/home/vitormrts/Área de Trabalho/Projects/corona-virus-telegram-bot/src/ranking.json', 'r', encoding='utf8') as f:
+    with open('./src/ranking.json', 'r', encoding='utf8') as f:
         return json.load(f)
 
 
@@ -98,10 +98,9 @@ def active_cases(bot, update: Update):
     bot.message.reply_text(msg, quote=False)
 
 
-def webhook():
-    updater = Updater(token=TELEGRAM_TOKEN)
-
-    dispatcher = updater.dispatcher
+def webhook(request):
+    bot = Bot(token=os.environ["TELEGRAM_TOKEN"])
+    dispatcher = Dispatcher(bot, None, 0)
 
     dispatcher.add_handler(CommandHandler('totalcases', total_cases))
     dispatcher.add_handler(CommandHandler('newcases', new_cases))
@@ -110,11 +109,7 @@ def webhook():
     dispatcher.add_handler(CommandHandler('totalrecovered', total_recovered))
     dispatcher.add_handler(CommandHandler('activecases', active_cases))
 
-    updater.start_polling()
-
-    updater.idle()
-
-
-if __name__ == '__main__':
-    print("press CTRL + C to cancel.")
-    webhook()
+    if request.method == "POST":
+        update = Update.de_json(request.get_json(force=True), bot)
+        dispatcher.process_update(update)
+    return "ok"

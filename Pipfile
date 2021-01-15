@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 python-telegram-bot = "*"
 python-dotenv = "*"
-requests2 = "*"
 pandas = "*"
 lxml = "*"
 beautifulsoup4 = "*"
