@@ -6,10 +6,15 @@ name = "pypi"
 [packages]
 python-telegram-bot = "*"
 python-dotenv = "*"
+requests2 = "*"
+pandas = "*"
+lxml = "*"
+beautifulsoup4 = "*"
+selenium = "*"
+simplejson = "*"
 
 [dev-packages]
 mypy = "*"
-autopep8 = "*"
 
 [requires]
 python_version = "3.8"
