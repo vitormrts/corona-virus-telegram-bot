@@ -1,1 +1,1 @@
-corona-virus-bot-telegram: python "/src/core.py"
+corona-virus-bot-telegram: .venv/bin/python "./src/core.py"
