@@ -1,5 +1,5 @@
 # Corona Virus Telegram Bot
-Telegram bot that provides real-time information about the situation of Corona Virus in Brazil and in the World. With it, we can see data on the ranking of the 10 countries with the highest:
+Telegram bot that provides real-time information about the situation of Corona Virus in the World. With it, we can see data on the ranking of the 10 countries with the highest:
 * Total confirmed cases
 * Number of new confirmed cases
 * Total confirmed deaths
